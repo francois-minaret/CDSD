@@ -82,9 +82,6 @@ class BookingSpider(scrapy.Spider):
         hotels = response.xpath('//div[contains(@data-testid, "property-card")]')
         self.logger.info(f"🏨 {city}: {len(hotels)} hôtels trouvés")
         for i,list_hotel in enumerate(hotels):
-            #Toutes les pages d'hôtel ne s'affiche pas forcément  donc je mets 50 pour en avoir 20
-            # if i >= 100:
-            #     break
             name = list_hotel.xpath('.//div[@data-testid="title"]/text()').get()
             name = name.strip() if name else None
             url = list_hotel.xpath('.//a[@data-testid="title-link"]/@href').get()
