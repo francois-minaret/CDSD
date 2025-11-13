@@ -47,6 +47,9 @@ Pour lancer : uvicorn app:app --reload --port 8000
     pour un accès http://localhost:8000/docs
 sinon possibilité également sur https://fminaret-getaround-api.hf.space/docs
 
+## Lien Github
+https://github.com/francois-minaret/CDSD/tree/main/bloc%205/GetAround
+
 📬 Contact
 
 Auteur : MINARET François
