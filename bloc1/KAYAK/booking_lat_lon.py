@@ -147,7 +147,7 @@ class BookingSpider(scrapy.Spider):
 if __name__ == "__main__":
     # Vérifie qu'un fichier JSON est passé
     if len(sys.argv) < 2:
-        print("❌ Utilisation : python booking_lat_lon.py villes.json")
+        print("Erreur Utilisation : python booking_lat_lon.py villes.json")
         sys.exit(1)
 
     # Charger la liste des villes depuis le fichier JSON
@@ -169,5 +169,5 @@ if __name__ == "__main__":
 
         # Pause avant la prochaine série
         if i + BATCH_SIZE < len(villes):
-            print(f"⏳ Pause {PAUSE_BATCH}s avant le prochain batch...")
+            print(f"Pause {PAUSE_BATCH}s avant le prochain batch...")
             sleep(PAUSE_BATCH)
