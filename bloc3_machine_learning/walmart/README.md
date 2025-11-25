@@ -37,7 +37,7 @@ To complete this project, your team should:
 
 
 ## Lien Github
-
+https://github.com/francois-minaret/CDSD/tree/main/bloc3_machine_learning/walmart
 
 ## 📬 Contact
 Auteur : MINARET François
