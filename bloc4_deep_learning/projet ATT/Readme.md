@@ -64,8 +64,9 @@ Matrice de confusion
 - **model** : bert-tiny-finetuned, o200k_base
 - **Évaluation DL** : Confusion Matrix, ROC AUC, Classification Report
 
+##Lien Github
+https://github.com/francois-minaret/CDSD/tree/main/bloc4_deep_learning/projet%20ATT
 
-📬 Contact
-
+##📬 Contact
 Auteur : MINARET François
 🔗 LinkedIn : https://www.linkedin.com/in/minaret-fran%C3%A7ois-56106a105/
