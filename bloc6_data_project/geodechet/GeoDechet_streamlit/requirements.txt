@@ -1,0 +1,11 @@
+altair
+pandas
+streamlit
+matplotlib
+numpy
+statsmodels
+requests
+shap
+langchain
+langchain-mistralai
+python-dotenv
